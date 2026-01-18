@@ -68,7 +68,7 @@
     background: rgba(29, 28, 28, 0.863);
     bottom: 25%;
     width: 100%;
-    padding: 22px 0;
+    padding: 11px 3px;
 }
 .pages img{
     width: 30vw;
@@ -104,6 +104,7 @@
 .intro p strong {
     font-family: "FlatBrush";
     font-size: 1.1rem;
+    color: var(--yellow);
 }
 
 .download-brochure {
@@ -133,8 +134,8 @@
 }
 
 .quick-links-container>h1 {
-    color: var(--shadow-gray);
-    padding: 0.5rem;
+    color: var(--sapphire);
+    padding: 1.5rem 0.5rem 0.5rem 0.5rem;
     position: relative;
     display: inline-block;
 }
@@ -195,7 +196,6 @@
     flex-direction: column;
     justify-content: center;
     gap: 1.5rem;
-    background: #EEEEEE;
 }
 
 .link-info h2 {
@@ -213,16 +213,18 @@
     background: var(--logo-red);
     border-radius: 25px;
     font-family: "HanumanBold";
-    color: white;
+    color: var(--sapphire);
     border: 2px solid var(--sapphire);
     display: inline block;
     font-size: 0.875rem;
+    text-decoration: none;
 }
 
 .link-info a:hover {
     background: #003366;
     border-color: var(--flame-logo);
     border: 2px solid var(--logo-red);
+    color: var(--logo-red);
 }
 
 /* WHY US  */

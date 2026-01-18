@@ -189,11 +189,10 @@
 }
 .nav-links a {
     font-family: "HanumanBold";
-    color: rgb(20, 1, 1);
+    color: var(--shadow-gray);
     text-decoration: none;
     transition: color 0.3s ease;
     padding: 5px;
-    /* border: solid red 2px; */
 }
 .nav-links a:hover {
     color: blue;
@@ -240,14 +239,13 @@
 }
 .nav-links .submenu a {
     display: block;
-    border-radius: 5px;
-    margin: 2px;
+    margin: 2px 0 2px 2px;
     font-size: 0.875rem;
     background-color: #D3DDDE;
+    color: var(--sapphire);
 }
 .nav-links .submenu a:hover {
     background-color: var(--logo-red) !important;
-    color: white;
 }
 
 .nav-links a.submenu-toggle.isActive {
@@ -261,7 +259,8 @@
     display: none;
 }
 .cta a {
-    color: white;
+    /* color: white; */
+    color: var(--sapphire);
     font-family: "VarelaRound";
     font-size: var(--text-sm);
     border: solid black 2px;
