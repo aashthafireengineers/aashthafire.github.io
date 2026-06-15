@@ -267,7 +267,7 @@
     background: var(--logo-red);
 }
 .cta a:hover {
-    background: var(--sapphire);
+    background: var(--logo-red);
     border: solid var(--logo-red) 2px;
 }
 .cta-button {
